@@ -18,3 +18,18 @@ MYSQL_PASSWORD=<your_db_pass>
 ```bash
 docker-compose up -d
 ```
+
+### 4. Go to your themes folder
+```bash
+cd wordpress/wp-content/themes
+```
+
+### 5. Install tailpress for custom theme
+Follow steps here: https://tailpress.io/
+
+### 6. Run npm-watch
+```bash
+npm run watch
+```
+
+### 7. Activate custom theme in wordpress admin
